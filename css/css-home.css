@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+.content{
+    margin-top:0;
+}
+
+.post-container{
+    margin:0;
+    padding:10px 40px;
+    
+    border-radius:4px;
+    margin-bottom:10px;
+    background:white;
+}
+
+.post-container .post-title{
+    color:black;
+}
+
+#body-container{
+    background:whitesmoke;
+    height:100vh;
+}
+
+
+.row-a{
+    height:100vh;
+    width:100vw;
+    display:inline-block;
+}
+
+.col-a{
+            width:22vw;
+            height:100vh;
+            float:left;            
+            left:0vw;
+            top:42px;
+            position:fixed;
+}
+
+.col-a ::-webkit-scrollbar {
+    width: 0px;
+    height:0px;
+    background: transparent; 
+}
+ .col-b{
+            width:55vw;
+            height:auto;
+            top:8vh;
+            float:left;
+            position:absolute;
+            left:22vw;
+            display:flex;
+            flex-direction:column-reverse;
+}
+.col-c{
+            width:20vw;
+            height:90vh;
+            float:left;
+            position:fixed;
+            left:77vw;
+            top:80px;
+}
+.col-c ::-webkit-scrollbar {
+    width: 0px;
+    height:0px;
+   background: transparent; 
+}
+li{
+    list-style:none;
+}
+
+.img{
+    width:100%;
+    margin-right:20%;
+    margin-bottom:10px;
+}
+.post-title{
+    font-weight:700;
+    font-size:30px;
+}
+.auth a,.auth{
+    color:grey;
+}
+.auth a:hover{
+    color:black;
+    text-decoration:none;
+}
+.readmore:hover{
+    color:black;
+}
+.post-container .normie-href{
+    font-style:italic;
+}
+
+.post-container .com-btn{
+    color:grey;
+    font-weight:600;
+    margin-right:30px;
+    margin-left:10px;
+}
+.com-btn:hover{
+    text-decoration:none;
+    color:rgb(70, 70, 70);
+}
+
+.ff{
+    width:100%;
+}
