@@ -9,11 +9,7 @@ const app = express();
 
 var cmd = "";
 var con = mysql.createConnection({ 
-    host: "piyush.crhyw7aw5mof.ap-south-1.rds.amazonaws.com",
-port:"3333",
-    user: "admin",
-    password: "piyush3t",
-    database: "scads"
+    //AUTH
 });
 con.connect(function(err) {
     if (err) throw err;
